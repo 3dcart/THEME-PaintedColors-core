@@ -86,13 +86,13 @@ function moveMenu() {
         jQuery('#menulinks').appendTo('#mobile-menulinks');
         jQuery('#categories').appendTo('#mobile-categories');
         jQuery('#logo').appendTo('#logo-holder');
-        jQuery('#searchBox').appendTo('#search-holder');
+        /* jQuery('#searchBox').appendTo('#search-holder'); */
     }
     else {
         jQuery('#menulinks').appendTo('.menulinks-outer');
         jQuery('#categories').appendTo('#desk_categories');
         jQuery('#logo').appendTo('#logo-sidebar');
-        jQuery('#searchBox').appendTo('#search-modal');
+        /* jQuery('#searchBox').appendTo('#search-modal'); */
     }
 
     if (respWidth < 992) {

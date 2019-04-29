@@ -1192,10 +1192,10 @@ iframe {
     width: 100%;
     text-decoration: none;
 }
-#search-holder {
+/* #search-holder {
     display: inline-block !important;
     width: 100%;
-}
+} */
 
 .sidebar-widget ul li a{
     padding: 10px 5px;

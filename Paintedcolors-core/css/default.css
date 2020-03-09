@@ -98,7 +98,26 @@ h1 {
     border-bottom: 1px solid #ececec;
 }
 
-
+.cart-items > li > span.item-name {
+    width: 52%;
+}
+.cart-items > li > span.item-qty {
+    width: 20%;
+}
+.cart-items > li > span.item-total {
+    width: 15%;
+}
+.paypal-button-container,.zoid-outlet {
+    max-width: 213px !important;
+}
+@media(max-width:767px){
+.cart-items > li > span.item-name {
+    width: 100%;
+}
+.paypal-button-container, .zoid-outlet {
+    max-width: 100% !important;
+}
+}
 @media (min-width: 768px) {
   .container {
     width: 100%;
@@ -110,6 +129,12 @@ h1 {
     width: 100%;
     max-width: 970px;
   }
+.my-account .beta-col {
+    padding: 0 70px 0 0%;
+}
+.my-account .alpha-col {
+    padding: 0 0% 0 70px;
+}
 }
 @media (min-width: 1200px) {
   .container {
@@ -122,7 +147,7 @@ h1 {
     font-family: 'Nunito', sans-serif;
     font-size: 13px;
     height: 36px;
-    padding: 7px 63px 7px 7px;
+    padding: 7px 7px 7px 7px;
 }
 .form-control.search-text {
      border-color: #ececec;

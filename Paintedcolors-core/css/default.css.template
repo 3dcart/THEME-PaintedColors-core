@@ -1,6 +1,22 @@
 /*
 ** Bootstrap over-rides
 */
+
+html, body {
+  height: 100%;
+}
+body, .full-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.page-content, .content-holder {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+}
+
 .mailinglist-input.form-control:focus,
 .form-control.search-text:focus{
 outline: 0;

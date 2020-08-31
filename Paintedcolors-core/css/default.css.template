@@ -2,20 +2,6 @@
 ** Bootstrap over-rides
 */
 
-html, body {
-  /*height: 100%;*/
-}
-body, .full-content {
-  display: flex;
-  height: 100%;
-  flex-direction: column;
-}
-.page-content, .content-holder {
-  flex: 1 0 auto;
-}
-footer {
-  flex-shrink: 0;
-}
 .product-items.productList .product-item .product-content {
     text-align: left;
 }

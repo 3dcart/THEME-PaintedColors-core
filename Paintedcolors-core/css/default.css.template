@@ -128,6 +128,12 @@ h1 {
     width: 100%;
     max-width: 970px;
   }
+  .my-account .beta-col {
+    padding: 0 70px 0 0%;
+}
+.my-account .alpha-col {
+    padding: 0 0% 0 70px;
+}
 }
 @media (min-width: 1200px) {
   .container {

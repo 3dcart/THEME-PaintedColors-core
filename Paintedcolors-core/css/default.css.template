@@ -116,7 +116,29 @@ h1 {
     border-bottom: 1px solid #ececec;
 }
 
-
+.cart-items > li > span.item-name {
+    width: 52%;
+}
+.cart-items > li > span.item-qty {
+    width: 20%;
+}
+.cart-items > li > span.item-total {
+    width: 15%;
+}
+.paypal-button-container,.zoid-outlet {
+    max-width: 213px !important;
+}
+.zip-code>input.form-control,.shipquoteint-action input.form-control{
+	padding:7px;
+}
+@media(max-width:767px){
+.cart-items > li > span.item-name {
+    width: 100%;
+}
+.paypal-button-container, .zoid-outlet {
+    max-width: 100% !important;
+}
+}
 @media (min-width: 768px) {
   .container {
     width: 100%;

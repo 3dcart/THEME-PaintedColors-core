@@ -140,6 +140,9 @@ h1 {
 .paypal-button-container,.zoid-outlet {
     max-width: 213px !important;
 }
+.zip-code>input.form-control,.shipquoteint-action input.form-control{
+	padding:7px;
+}
 @media(max-width:767px){
 .cart-items > li > span.item-name {
     width: 100%;

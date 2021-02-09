@@ -28,6 +28,14 @@
 		height: auto;
 	}
 }
+@media(max-width:1199px){
+	.view-cart #leftBar,.view-cart .content-holder::after {
+		display: none;
+	}
+	.view-cart .midCol {
+		width: 100%;
+	}
+}
 .mailinglist-input.form-control:focus,
 .form-control.search-text:focus{
 outline: 0;

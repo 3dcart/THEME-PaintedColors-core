@@ -1,7 +1,21 @@
 /*
 ** Bootstrap over-rides
 */
-
+#skip a
+{
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+#skip a:focus
+{
+position:static;
+width:auto;
+height:auto;
+}
 .product-items.productList .product-item .product-content {
     text-align: left;
 }
@@ -572,7 +586,7 @@ ul.extrapages li a {
     max-width: 320px;
     margin-bottom: 40px;
 }
-.mailist-box h3 {
+.mailist-box h3,.mailist-box h2 {
     margin: 0 0 8px;
     font-family: 'Nunito', sans-serif;
     font-size: 13px;
@@ -660,7 +674,7 @@ ul.social-icons li.social-icons-label {
     margin-right: 20px;
     color: #[footer-text-color];
 }
-
+ul.social-icons li.social-icons-label{display: block;}
 .social-icons {
     text-align: left;
     margin: 0 0 40px;
@@ -729,7 +743,7 @@ del.original-price {
     font-weight: 500;
 }
 span.freeshipping {
-    color: #00a888;
+    color: #005747;
 }
 .product-item .status span:before {
     content: "-";
@@ -770,7 +784,7 @@ span.freeshipping {
     top:2px;
     right: 17px;
     background: #[primary-accent];
-    color: #fff;
+    color: #3B3B3B;
 }
 #home .product-item .action .btn {
     min-width: 185px;
@@ -797,7 +811,7 @@ span.freeshipping {
     background-color: #fff;
     padding: 30px 0;
 }
-#home .products-section h2 {
+#home .products-section h2,#home .products-section h1 {
     text-align: center;
     font-size: 23px;
     line-height: 1.35;
@@ -816,7 +830,7 @@ span.freeshipping {
     background: inherit;
     width: inherit;
 }
-.products-section h2 {
+.products-section h2,.products-section h1 {
     text-align: left;
     font-size: 25px;
     line-height: 1.35;
@@ -1277,7 +1291,7 @@ iframe {
     background: #[secondary-accent];
     text-align: center;
     text-transform: capitalize;
-    color: #fff;
+    color: #000;
 }
 #leftBar .widget-header:after {
     content: inherit;

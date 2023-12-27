@@ -1,6 +1,14 @@
 /*
 ** Bootstrap over-rides
 */
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand:500,700&display=swap');
+.homeCarousel.flexslider .slides img{
+    width:100%;
+}
+.antiCls { 
+    visibility: hidden; 
+}
 #skip a
 {
 position:absolute;
@@ -867,7 +875,7 @@ span.freeshipping {
 .extrapages-shower a {
     display: block;
     background-color: #[primary-accent];
-    color: #fff;
+    color: #000;
     padding: 10px 18px;
     text-decoration: none !important;
 }

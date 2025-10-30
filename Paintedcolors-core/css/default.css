@@ -1351,16 +1351,6 @@ iframe {
     background: #fff;
     position: relative;
 }
-.content-holder::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 25%;
-    height: 100%;
-    background: #f2f2f2;
-    z-index: 0;
-}
 @media(min-width: 768px) {
     .revealOnScroll {
         opacity:0;
